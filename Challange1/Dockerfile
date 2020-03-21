@@ -4,7 +4,7 @@ WORKDIR /go/src
 
 COPY . .
 
-RUN GOOS=linux go build
+RUN GOOS=linux go build hello.go
 
 EXPOSE 8081
 
