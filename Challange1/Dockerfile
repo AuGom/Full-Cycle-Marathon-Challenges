@@ -8,4 +8,4 @@ RUN GOOS=linux go build
 
 EXPOSE 8081
 
-ENTRYPOINT [ "./main" ]
+ENTRYPOINT [ "./hello" ]
